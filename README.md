@@ -4,7 +4,7 @@ Monitor low disk space then send text notification via textbelt.com in bash/shel
 ### first, determine the threshold
 find this line then modify accordingly, here I set it to send alert when disk space reached to 90% and over
 ```
-if [ $used -ge 90 ]; then ...
+if [ $used -ge 90 ]; ...
 ```
 
 ### then modify these variables
