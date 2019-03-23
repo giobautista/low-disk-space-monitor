@@ -15,7 +15,7 @@ key=YOURKEY
 
 ### make the script executable
 ```
-chmod 775 sendAlert.sh
+chmod +x sendAlert.sh
 ```
 
 ### add to cronjob every 5 minutes (change to how often you want to run the script)
