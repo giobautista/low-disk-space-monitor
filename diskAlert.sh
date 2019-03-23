@@ -5,6 +5,6 @@ do
   used=$(echo $output | awk '{ print $1}' | cut -d'%' -f1  )
   partition=$(echo $output | awk '{ print $2 }' )
   if [ $used -ge 90 ]; then
-    curl -X POST https://textbelt.com/text --data-urlencode phone='+15551234567' --data-urlencode message="$(date): The partition \"$partition\" on $(hostname) is at $used%" -d key=YOURKEY
+    curl -X POST https://textbelt.com/text --data-urlencode phone='+15559871234' --data-urlencode message="$(date): The partition \"$partition\" on $(hostname) is at $used%" -d key=YOURKEY
   fi
 done
