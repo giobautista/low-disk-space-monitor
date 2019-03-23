@@ -9,7 +9,7 @@ if [ $used -ge 90 ]; ...
 
 ### then modify these variables
 ```
-phone='+15145769585'
+phone='+1555987123'
 key=YOURKEY
 ```
 
