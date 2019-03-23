@@ -1,24 +1,24 @@
 # low-disk-space-monitor
 Monitor low disk space then send text notification via textbelt.com in bash/shell
 
-### first, determine the threshold
+#### first, determine the threshold
 find this line then modify accordingly, here I set it to send alert when disk space reached to 90% and over
 ```
 if [ $used -ge 90 ]; ...
 ```
 
-### then modify these variables
+#### then modify these variables
 ```
 phone='+1555987123'
 key=YOURKEY
 ```
 
-### make the script executable
+#### make the script executable
 ```
 chmod +x sendAlert.sh
 ```
 
-### add to cronjob every 5 minutes (change to how often you want to run the script)
+#### add to cronjob every 5 minutes (change to how often you want to run the script)
 ```
 crontab -e
 ```
